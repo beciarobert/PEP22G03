@@ -72,7 +72,7 @@
 
 
 
-
-var1 = "insert "
-var1 = var1.replace("i","_",2)
-print("Replaced i: ",var1*3)
+#
+# var1 = "insert "
+# var1 = var1.replace("i","_",2)
+# print("Replaced i: ",var1*3)
