@@ -60,14 +60,14 @@
 # print(cuvant2[0] == majuscula)
 
 
-
-x = int(input("numar:"))
-y = int(input("numar:"))
-
-x = x % y
-x = x % y
-y = y % x
-print(y)
+#
+# x = int(input("numar:"))
+# y = int(input("numar:"))
+#
+# x = x % y
+# x = x % y
+# y = y % x
+# print(y)
 
 # print(2//4)
 # print(1//2 * 3)
