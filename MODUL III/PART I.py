@@ -253,3 +253,94 @@
 #     print(f"Veti primi restul de {bani - 4}")
 # elif optiune == 2:
 #     print(f"Veti primi restul de {bani - 3.5}")
+
+
+################################################################################################
+
+
+
+#                              EX 5
+
+# obiecte = ["Masa",5,"Scaun",4.5,[5,6,7],8]
+#
+# print(f"Tipul obiectului {obiecte[0]} este {type(obiecte[0]).__name__}",
+#         f"Tipul obiectului {obiecte[1]} este {type(obiecte[1]).__name__}",
+#         f"Tipul obiectului {obiecte[2]} este {type(obiecte[2]).__name__}",
+#         f"Tipul obiectului {obiecte[3]} este {type(obiecte[3]).__name__}",
+#         f"Tipul obiectului {obiecte[4]} este {type(obiecte[4]).__name__}",
+#         f"Tipul obiectului {obiecte[5]} este {type(obiecte[5]).__name__}", sep="\n")
+
+
+# obiecte = ["Masa",5,"Scaun",4.5,[5,6,7],8]
+#
+# for object_ in obiecte:
+#     print(f"Tipul obiecutului {object_} este {type(object_).__name__}")
+#
+#
+
+
+################################################################################################
+
+
+                             #
+                             # EX 6
+
+
+# cuvant = input("Introduceti un cuvant: ").lower()
+#
+# print(f"{cuvant[0]} apare de {cuvant.count(cuvant[0])} ori")
+
+
+# cuvant = input("Introduceti un cuvant: ").lower()
+# counter = 0
+# repetition = input("Introduceti caracterul: ").lower()
+# for letter in cuvant:
+#     if letter == repetition:
+#         counter += 1
+# print(f"{repetition} se repeta de {counter} ori")
+
+
+cuvant = input("Introduceti un cuvant: ").lower()
+
+count = 0
+for i in cuvant:
+    if cuvant.count(i) >= 2 :
+        count += 1
+        print(f"{i} appears {count} times")
+
+
+print(cuvant)
+# print(duplicates)
+################################################################################################
+
+
+
+
+#                              EX 7
+
+# Cum am facut eu:
+
+# lista = input("Introduceti lista de taskuri: ")
+# lista_taskuri = lista.split(",")
+# print(lista_taskuri)
+#
+# lista_after = []
+# for object_ in lista_taskuri:
+#     if object_ not in lista_after:
+#         lista_after.append(object_)
+#
+#
+# print(lista_after)
+
+
+# Cum a zis profu sa facem
+
+# for task in lista_taskuri.copy():
+#     lista_taskuri.count(task)
+#     print(f"Taskul: {task} se regaseste  de {lista_taskuri.count(task)}")
+#     if lista_taskuri.count(task) > 1:
+#         lista_taskuri.remove(task)
+#
+
+# print(lista_taskuri)
+
