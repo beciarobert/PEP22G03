@@ -30,3 +30,16 @@
 #         counter_char += 1
 #
 # print(f"Vocale in cuvant: {counter_char}")
+
+
+# var = input("Introduceti un string: ")
+# dic = {}
+#
+# for char in var:
+#     if char in dic:
+#         dic[char] += 1
+#     else:
+#         dic[char] = 1
+# for char in dic:
+#     print(f"litera {char} apare de {dic[char]}")
+
